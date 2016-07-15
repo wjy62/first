@@ -1,0 +1,86 @@
+.banner-warp {
+	background-image: url('../img/bg.jpg');
+	height: 802px;
+	width: 100%;
+}
+
+.nav {
+
+}
+
+.content1{
+	width: 33.33%;
+	box-sizing: border-box;
+	// border: 1px solid red;
+	position: relative;
+	left: 20px;
+	height: 300px;
+	float: left;
+	// overflow:hidden;
+
+	.icon1{
+		position: absolute;
+		top: 20px;
+		left: 120px;
+		border: 1px solid blue;
+	}
+
+	.txt1 p{
+		border: 1px solid purple;
+		position: absolute;
+		top: 170px;
+		left: 20px;
+		border: 1px solid blue;
+		color: gray;
+
+	}
+
+}
+
+.content2{
+	width: 33.33%;
+	box-sizing: border-box;
+	// border: 1px solid green;
+	float: left;
+	position: relative;
+
+	.icon2{
+		position: absolute;
+		top: 20px;
+		left: 120px;
+		border: 1px solid red;
+	}
+
+	.txt2 p{
+		border: 1px solid purple;
+		position: absolute;
+		top: 170px;
+		left: 20px;
+		color: gray;
+
+	}
+}
+
+.content3{
+	width: 33.33%;
+	box-sizing:border-box;
+	// border: 1px solid red;
+	position: relative;
+	float: left;
+
+	.icon3{
+		position: absolute;
+		top: 20px;
+		left: 120px;
+		border: 1px solid green;
+	}
+
+	.txt3 p{
+		border: 1px solid yellow;
+		position: absolute;
+		top: 170px;
+		left: 20px;
+		color: gray;
+
+	}
+}

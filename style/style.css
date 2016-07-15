@@ -1,0 +1,78 @@
+/* line 1, ../sass/style.scss */
+.banner-warp {
+  background-image: url("../img/bg.jpg");
+  height: 802px;
+  width: 100%;
+}
+
+/* line 11, ../sass/style.scss */
+.content1 {
+  width: 33.33%;
+  box-sizing: border-box;
+  position: relative;
+  left: 20px;
+  height: 300px;
+  float: left;
+}
+/* line 21, ../sass/style.scss */
+.content1 .icon1 {
+  position: absolute;
+  top: 20px;
+  left: 120px;
+  border: 1px solid blue;
+}
+/* line 28, ../sass/style.scss */
+.content1 .txt1 p {
+  border: 1px solid purple;
+  position: absolute;
+  top: 170px;
+  left: 20px;
+  border: 1px solid blue;
+  color: gray;
+}
+
+/* line 40, ../sass/style.scss */
+.content2 {
+  width: 33.33%;
+  box-sizing: border-box;
+  float: left;
+  position: relative;
+}
+/* line 47, ../sass/style.scss */
+.content2 .icon2 {
+  position: absolute;
+  top: 20px;
+  left: 120px;
+  border: 1px solid red;
+}
+/* line 54, ../sass/style.scss */
+.content2 .txt2 p {
+  border: 1px solid purple;
+  position: absolute;
+  top: 170px;
+  left: 20px;
+  color: gray;
+}
+
+/* line 64, ../sass/style.scss */
+.content3 {
+  width: 33.33%;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+}
+/* line 71, ../sass/style.scss */
+.content3 .icon3 {
+  position: absolute;
+  top: 20px;
+  left: 120px;
+  border: 1px solid green;
+}
+/* line 78, ../sass/style.scss */
+.content3 .txt3 p {
+  border: 1px solid yellow;
+  position: absolute;
+  top: 170px;
+  left: 20px;
+  color: gray;
+}
